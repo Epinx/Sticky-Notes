@@ -1,0 +1,20 @@
+{
+    "name": "Sticky Notes - Just popped up!",
+    "short_name": "Sticky Notes",
+    "manifest_version": 2,
+    "version": "1.2",
+    "icons": { "16": "images/icon16.png",
+           "48": "images/icon48.png",
+          "128": "images/icon128.png" },
+    "description": "A perfect tool for taking quick notes. Its fast, secure, and private.",
+    "browser_action": {
+        "default_icon": "images/icon128.png",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "permissions": [
+        "storage"
+    ]
+}
